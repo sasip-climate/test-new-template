@@ -3,7 +3,7 @@
 ![github pages](https://github.com/sasip-climate/sasip-climate.github.io/actions/workflows/build-and-deploy.yaml/badge.svg)
 
 
-Visit the resulting website here : https://test-new-template.github.io
+Visit the resulting website here : https://sasip-climate.github.io/test-new-template
 
 This repo contains the source code for the SASIP website.
 The site uses the [Hugo](https://gohugo.io/) framework.
