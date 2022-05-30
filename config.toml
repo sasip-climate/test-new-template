@@ -1,118 +1,68 @@
-baseURL = "https://sasip-climate.github.io/test-new-template"
-title = "SASIP"
-theme = "hugo-advance"
-paginate = 3
-enableGitInfo = false
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsUseClasses = true
-metaDataFormat = "yaml"
+baseURL = "https://test-new-template.github.io/"
+URL = "/"
 languageCode = "en-us"
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+title = "SASIP"
+themesDir = "themes"
+theme = "hugo-hero-theme"
 
 [params]
-    google_analytics_id = ""
-    enable_dark_mode = false
-    enable_nested_menu = true # allows dropdown menus in main menu
-    enable_fixed_header = true # if true the header will be sticky and animate on scroll
-    enable_language_switcher = false
+  # In most cases you will only want to use either one of these. If you have Google Analytics included in your GTM tags don't put your GA ID here. Otherwise your data might be useless.
+  google_analytics_id = ""
+  google_tag_manager_id = ""
 
-    [params.colors]
-        [params.colors.light]
-            base = "#ffffff"
-            base_offset = "#f2f2f2"
-            base_text = "#202020"
-            base_text_offset = "#625c5c"
-            alt = "#f4f5fb"
-            alt_offset = "#CCCCCC"
-            alt_text = "#202020"
-            alt_text_offset = "#625c5c"
-            primary = "#2b3af7"
-            primary_offset = "#702bf7"
-            primary_text = "#ffffff"
-            primary_text_offset = "#79bcff"
-        [params.colors.dark]
-            base = "#121212"
-            base_offset = "#1e1e1e"
-            base_text = "#ffffff"
-            base_text_offset = "#d7d7d7"
-            alt = "#1e1e1e"
-            alt_offset = "#2f2f2f"
-            alt_text = "#fafafa"
-            alt_text_offset = "#a8a4a4"
-            primary = "#2b5df7"
-            primary_offset = "#a62bf7"
-            primary_text = "#eeebfc"
-            primary_text_offset = "#a7a7a7"
+  [params.homepage]
+    show_call_box = true
 
-    [params.fonts]
-        google_fonts = "https://fonts.googleapis.com/css2?family=Fira+Mono&family=Lato:wght@300;400;700&family=Source+Sans+Pro&display=swap"
-        heading = "Lato"
-        base = "Source Sans Pro"
-        monospace = "Fira Mono"
+  [params.logo]
+    mobile = "images/ice-logo.jpg"
+    desktop = "images/ice-logo.jpg"
+    desktop_height = "48px"
+    mobile_height = "24px"
+    alt = "MSML"
 
-    [params.logo]
-        logo = "images/ice-logo.jpg" # Desktop logo
-        logo_mobile = "images/ice-logo.jpg" # Mobile logo, typically the smaller square version of your logo (logomark)
-        logo_invert = "images/ice-logo.jpg" # Desktop logo in white, for use when the header is transparent
-        logo_invert_mobile = "images/ice-logo.jpg" # Mobile logo in white
+  [params.homepage_meta_tags]
+    meta_description = "Bla bla bla"
+    meta_og_title = "SASIP"
+    meta_og_type = "website"
+    meta_og_url = "https://hugo-serif.netlify.app"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-serif-theme/master/images/tn.png"
+    meta_og_description = "VESRI Collaboration on Climate Science"
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@AurelieAlbert"
+    meta_twitter_creator = "@AurelieAlbert"
 
-    [params.seo]
-        meta_twitter_site = "@zerostaticio"
-        meta_twitter_creator = "@zerostaticio"
+  [params.footer]
+    copyright_text = 'Hugo design adapted from <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a> by Joan Bruna, 2020 and adapted by Aurelie Albert, 2021.'
 
-    [params.footer]
-        show_site_title = true
-        show_copyright = true
-        show_social_media_links = true
-        show_languages = false
-        enable_menu_footer_primary = false
-        footer_primary_menu_title = "Product"
-        enable_menu_footer_secondary = false
-        footer_secondary_menu_title = "Company"
-        enable_menu_footer_tertiary = false
-        footer_tertiary_menu_title = "Support"
+[menu]
+  # Main Menu
 
+  [[menu.main]]
+      name = "About"
+      url = "/pages/about"
+      weight = 3
 
+  [[menu.main]]
+      name = "Jobs"
+      url = "/jobs"
+      weight = 6
 
-[languages]
-    [languages.en]
-        weight = 0
-        languageName = "English"
-        contentDir = "content/en"
-    [languages.fr]
-        weight = 1
-        languageName = "Français"
-        contentDir = "content/fr"
-        title = "Hugo Avance"
-        [languages.fr.params.footer]
-            show_site_title = true
-            show_copyright = true
-            show_social_media_links = true
-            show_languages = true
-            enable_menu_footer_primary = true
-            footer_primary_menu_title = "Produit"
-            enable_menu_footer_secondary = true
-            footer_secondary_menu_title = "Compagnie"
-            enable_menu_footer_tertiary = true
-            footer_tertiary_menu_title = "Support"
-        [languages.fr.menu]
-            [[languages.fr.menu.main]]
-                name = "Acheter"
-                url = "https://www.zerostatic.io/theme/hugo-advance/"
-                weight = 10
-            [[languages.fr.menu.footer_tertiary]]
-                name = "Acheter"
-                url = "https://www.zerostatic.io/theme/hugo-advance/"
-                weight = 10
+  [[menu.main]]
+      name = "News"
+      url = "/news"
+      weight = 1
 
-[permalinks]
-    posts = "blog/:year/:month/:title/"
-    pages = ":slug/"
+  [[menu.main]]
+      name = "Webinars"
+      url = "/categories/webinars"
+      weight = 2
 
-[taxonomies]
-    tag = "tags"
-    category = "categories"
-    portfolio =  "portfolio"
-    author = "authors"
+  [[menu.main]]
+      name = "Team"
+      url = "/team/"
+      weight = 4
+
+  [[menu.main]]
+      name = "Research"
+      url = "/research"
+      weight = 5

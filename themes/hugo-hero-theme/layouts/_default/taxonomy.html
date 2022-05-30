@@ -1,0 +1,47 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-default-list{{ end }}
+{{ define "header_classes" }}{{ if .Params.header_transparent }}header-transparent{{ end }}{{ end }}
+
+{{ define "main" }}
+
+{{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Title "subheading" .Params.heroSubHeading "content" .)}}
+
+
+
+    {{ $pages := .Pages }}
+    {{ $pagesCount := len $pages }}
+    {{ $summaryType := .Params.summary_type }}
+    {{ if gt ($pagesCount) 0 }}
+        <div class="strip">
+            <div class="container ">
+                <div class="row">
+                    {{ range .Pages.ByWeight }}
+                        <div class="col-12 col-md-8 mb-3">
+                            {{ if $summaryType }}
+                                {{ .Render $summaryType }}
+                            {{ else }}
+                                {{ .Render "summary-row" }}
+                            {{ end }}
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    {{ end }}
+
+    {{ if .Content }}
+        <div class="strip strip-border-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <div class="content">
+                            {{ .Content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{ end }}
+
+
+{{ end }}

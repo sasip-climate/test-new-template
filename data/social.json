@@ -1,17 +1,16 @@
 [
-  {
-    "title": "Email",
-    "fa_icon": "fab fa-envelope",
-    "url": "mailto:manager@sasip-climate.com"
-  },
-  {
-    "title": "Twitter",
-    "fa_icon": "fab fa-twitter",
-    "url": "https://twitter.com/sasipclimate"
-  },
-  {
-    "title": "Github",
-    "fa_icon": "fab fa-github",
-    "url": "https://github.com/sasip-climate"
-  }
+    {
+        "name": "Email",
+        "link": "mailto:manager@sasip-climate.com",
+        "image": "images/PICOL_icon_Mailw.png"
+    },
+    {
+        "name": "Github",
+        "link": "https://github.com/sasip-climate",
+        "image": "images/github.svg"
+    },    {
+        "name": "Twitter",
+        "link": "https://twitter.com/sasipclimate",
+        "image": "images/twitter.svg"
+    }
 ]

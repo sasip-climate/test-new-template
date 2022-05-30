@@ -1,59 +1,56 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
+intro_image: images/undraw_selection_92i4.svg
+intro_image_absolute: false
+intro_image_hide_on_mobile: true
+featured: true
 draft: false
-description: 'The expression of a brand including its name, trademark, and visual appearance.'
-menu:
-  main:
-    weight: 4
-    parent: "services"
-weight: 4
-icon: 'images/services/icons8-adobe_indesign.png'
-thumbnail: 'https://source.unsplash.com/hqCEQTc5gZA/640x360'
-image: 'https://source.unsplash.com/hqCEQTc5gZA/640x450'
-hero:
-  background: ""
-  blend_mode: "normal"
-  theme: "base"
+weight: 100
 ---
 
-# Creating Modern Websites
+Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
+de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
+crimen habet Priamum nec.
 
-Web design encompasses many different skills and disciplines in the production and maintenance of websites.
+## Ne verba patulosque numen vix libet
 
-Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all. Web design partially overlaps web engineering in the broader scope of web development.
+Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
+Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
+male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
 
-## What is Web Design?
+1. Cum det dixit Parcarum qui spemque est
+2. Exit ex huic
+3. Quod consiste agitataque claustraque vicina videt lacertis
+4. Loquor videt
+5. Ardua non igne caelesti coniugis cognovi diversorum
+6. Per nunc pariterque saeva vindicet
 
-User experience is about how a user interacts with, and experiences, a particular product, system or service. As a UX designer, you should consider the Why, What and How of product use. 
+Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
+dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
+Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
+esse iam feres mortis Plurima.
 
-The Why involves the users’ motivations for adopting a product, whether they relate to a task they wish to perform with it or to values and views which users associate with the ownership and use of the product. 
+## Postquam tamen
 
-{{< figure src="/images/services/balazs-ketyi-b9rPuUQ_YSs-unsplash.jpg" title="Steve Francia"  caption="Designing in Figma" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank">}}
+Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
+et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
+licet! Inserui quamvis Clymeni.
 
+- Parens est studiisque interea
+- Pro istis mediis carnes iste nec imperat
+- Te vocas orat nisi quantumque castra
+- Gestumque crepuscula esse videntur coegit
+- Ambo videtque gerat aquae ferens vagina
+- Adde leviter faciam tetigisse regunt concava in
 
-## Front-end Development
+Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
+incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
+vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
+parte](#dissipat) indignata supera.
 
-The What addresses the things people can do with a product—its functionality. Finally, the How relates to the design of functionality in an accessible and aesthetically pleasant way. UX designers start with the Why before determining the What and then, finally, the How in order to create products that users can form meaningful experiences with. In software designs, you will need to ensure the product’s “substance” comes through an existing device and offers a seamless, fluid experience.
-
-> As a UX designer, you should consider the Why, What and How of product use.
-
-Web designers are expected to have an awareness of usability and if their role involves creating markup then they are also expected to be up to date with web accessibility guidelines.
-
-## Design Systems
-
-A Design System is a set of interconnected patterns and shared practices coherently organized to aid in digital product design and development of products such as apps or websites.
-
-{{< youtube 2M6dJ2Uynhg >}}
-
-## Process
-
-There are two primary jobs involved in creating a website: the web designer and web developer, who often work closely together on a website. The web designers are responsible for the visual aspect, which includes the layout, coloring and typography of a web page. 
-
-* User experience research
-* Visual design and illustration
-* Programming and coding
-
-![Design In Figma](/images/services/balazs-ketyi-6yMb5V8L34o-unsplash.jpg)
-
-Web designers will also have a working knowledge of markup languages such as HTML and CSS, although the extent of their knowledge will differ from one web designer to another. Particularly in smaller organizations, one person will need the necessary skills for designing and programming the full web page, while larger organizations may have a web designer responsible for the visual aspect alone.
+Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
+iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
+et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
+somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
+tamen lentis spectat, Titania est animo.
